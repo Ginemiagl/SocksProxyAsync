@@ -27,7 +27,7 @@
     },
 
     "allow-plugins": {
-        "doctrine/coding-standard": true,
+        "squizlabs/php_codesniffer": true
     },
     "scripts": {
         "test": "vendor/bin/phpunit --configuration tests/phpunit.config.xml",
