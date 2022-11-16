@@ -25,6 +25,10 @@
         "php": "^7.4",
         "ext-sockets": "*"
     },
+
+    "allow-plugins": {
+        "doctrine/coding-standard": true,
+    },
     "scripts": {
         "test": "vendor/bin/phpunit --configuration tests/phpunit.config.xml",
         "unit": "vendor/bin/phpunit --configuration tests/phpunit.config.xml --testsuite unit",
